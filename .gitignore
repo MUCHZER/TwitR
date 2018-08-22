@@ -1,10 +1,35 @@
+<<<<<<< HEAD
+.DS_Store
+node_modules
+/dist
+
+/tests/e2e/reports/
+selenium-debug.log
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+=======
 # Logs
 logs
 *.log
+>>>>>>> 341c733b57aa2c895f287e541321f4b6a1153c13
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+=======
 # Runtime data
 pids
 *.pid
@@ -59,3 +84,4 @@ typings/
 
 # next.js build output
 .next
+>>>>>>> 341c733b57aa2c895f287e541321f4b6a1153c13
