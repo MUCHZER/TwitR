@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <profile />
+    <tweet-swig />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Profile from "@/components/Profile.vue";
+import TweetSwig from "@/components/TweetSwig.vue";
 
 export default {
-  name: "home",
+  name: "eraser",
   components: {
-    Profile
+    TweetSwig
   }
 };
 </script>

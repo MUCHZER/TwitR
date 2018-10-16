@@ -20,11 +20,8 @@
 import VueSwing from "vue-swing";
 
 export default {
-  name: "Tweets",
+  name: "tweet-swig",
   components: { VueSwing },
-  props: {
-    content: String
-  },
   data() {
     return {
       config: {
